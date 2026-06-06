@@ -1,0 +1,29 @@
+# ── macOS ──
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Editors / IDEs ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Logs & temp ──
+*.log
+*.tmp
+Thumbs.db
+
+# ── Dependencies / build (only if you add tooling later) ──
+node_modules/
+dist/
+.cache/
+
+# ── Environment / secrets ──
+.env
+.env.*
